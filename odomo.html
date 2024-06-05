@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -13,14 +13,14 @@
     <nav class="nav">
         <div class="container">
             <div class="nav-row">
-                <a href="../index.html" class="logo"><strong>Yarovenko </strong>Bogdan</a>
+                <a href="index.html" class="logo"><strong>Yarovenko </strong>Bogdan</a>
                 <ul class="nav-list">
                     <button class="dark-mode-btn dark-mode-btn--active">
-                        <img src="../img/icons/Sun.svg" alt="light mode" class="dark-mode-btn__icon">
-                        <img src="../img/icons/Moon.svg" alt="dark mode" class="dark-mode-btn__icon">
+                        <img src="img/icons/Sun.svg" alt="light mode" class="dark-mode-btn__icon">
+                        <img src="img/icons/Moon.svg" alt="dark mode" class="dark-mode-btn__icon">
                     </button>
                     <li class="nav-list__item">
-                        <a href="../index.html" class="home">Home</a>
+                        <a href="index.html" class="home">Home</a>
                     </li>
                     <li class="nav-list__item">
                         <a href="#projects" class="nav-list__link nav-list__link--active">Projects</a>
@@ -33,25 +33,30 @@
     <!-- Main content -->
     <main class="section-projects">
         <div class="container">
-            <h2 class="title-1">Projet de Pluviométrie</h2>
-            <img src="./projects_img/Odomo.png" alt="Project Image" class="project__picture">
+            <h2 class="title-1">"Pluviometrie" project</h2>
+            <img src="img/projects/Odomo.png" alt="Project Image" class="project__picture">
         </div>
 
         <div class="container">
             <h2 class="title-2">Technologies</h2>
-           <ul class="skills"> <li class="skill">
-                <img src="img/icons/js.png" alt="" class="skills__img" />
-                <h3 class="skill__title">Java </h3>
-            </li>
-            <li class="skill">
-                <img src="img/icons/html.png" alt="" class="skills__img" />
-                <h3 class="skill__title"> NetBeans </h3>
-            </li>
-        </ul>
+            <ul class="skills">
+                <li class="skill">
+                    <img src="img/icons/java.png" alt="" class="skills__img" />
+                    <h3 class="skill__title">Java </h3>
+                </li>
+                <li class="skill">
+                    <img src="img/icons/netbeans.png" alt="" class="skills__img" />
+                    <h3 class="skill__title"> NetBeans </h3>
+                </li>
+            </ul>
+            <div class="git-link"> <img src="img/icons/github-darkmode.svg" alt="" class="social-icon dark-icon">
+                <img src="img/icons/github-lightmode.svg" alt="" class="social-icon light-icon">
+                <a href="https://github.com/BogdanYarovenko/ProjectOdomo" class="link"><button class="btn"> I want to see this project</button></a>
+            </div>
         </div>
-
+<div class="container-wrapper">
         <div class="container">
-            <h2 class="title-2">Cahier des Charges</h2>
+            <h2 class="title-2">Requirement Specification</h2>
             <ul class="informations">
                 <li>Analyse des besoins des utilisateurs</li>
                 <li>Définition des fonctionnalités principales</li>
@@ -63,7 +68,7 @@
         </div>
 
         <div class="container">
-            <h2 class="title-2">Compétences</h2>
+            <h2 class="title-2">Competences</h2>
             <ul class="informations">
                 <li>Gestion de projet</li>
                 <li>Développement front-end et back-end</li>
@@ -74,6 +79,7 @@
                 <li>Communication efficace</li>
             </ul>
         </div>
+    </div>
     </main>
 
     <!-- Footer -->
@@ -83,15 +89,17 @@
                 <ul class="social">
                     <li class="social__item"><a href="#!" class="social__link">
                             <img src="../img/icons/facebook-darkmode.svg" alt="Facebook" class="social-icon dark-icon">
-                            <img src="../img/icons/facebook-lightmode.svg" alt="Facebook" class="social-icon light-icon">
+                            <img src="../img/icons/facebook-lightmode.svg" alt="Facebook"
+                                class="social-icon light-icon">
                         </a></li>
-                    <li class="social__item"><a href="#!" class="social__link">
+                    <li class="social__item"><a href="https://github.com/BogdanYarovenko" class="social__link">
                             <img src="../img/icons/github-darkmode.svg" alt="GitHub" class="social-icon dark-icon">
                             <img src="../img/icons/github-lightmode.svg" alt="GitHub" class="social-icon light-icon">
                         </a></li>
                     <li class="social__item"><a href="#!" class="social__link">
                             <img src="../img/icons/linkedin-darkmode.svg" alt="LinkedIn" class="social-icon dark-icon">
-                            <img src="../img/icons/linkedin-lightmode.svg" alt="LinkedIn" class="social-icon light-icon">
+                            <img src="../img/icons/linkedin-lightmode.svg" alt="LinkedIn"
+                                class="social-icon light-icon">
                         </a></li>
                 </ul>
                 <div class="copyright">
@@ -101,7 +109,7 @@
         </div>
     </footer>
 
-    <script src="../js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
