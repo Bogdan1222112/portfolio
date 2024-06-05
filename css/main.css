@@ -21,6 +21,7 @@ font-family: 'Poppins', sans-serif;
   --header-text: var(--white);
   --accent: var(--purple);
   --titlebeige: var(--beige);
+  --bg-image: url('/img/header-bg-dark.png');
 }
 
 :root {
@@ -37,6 +38,7 @@ font-family: 'Poppins', sans-serif;
   --accent: #5c62ec;
   --titlebeige: #171718;
   --dark-mode-btn-bg: #f5f5f5;
+  --bg-image: url('/img/header-bg-light.png');
 }
 
 ::-webkit-scrollbar {
@@ -63,8 +65,6 @@ body {
   color: var(--text-color);
   scroll-behavior: smooth;
 }
-
-
 .container {
   padding: 0 15px;
   margin: 0 auto;
@@ -198,7 +198,7 @@ body {
   align-items: center;
   text-align: center;
   min-height: 700px;
-  background-image: url("../img/header-bg-light.png");
+  background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
@@ -311,6 +311,7 @@ body {
 
 .project__img {
   border-radius: 10px 10px 0 0;
+max-height: 230px;
 }
 
 .project:hover {
