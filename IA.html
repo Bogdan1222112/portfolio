@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
@@ -23,65 +24,76 @@
                         <a href="index.html" class="home">Home</a>
                     </li>
                     <li class="nav-list__item">
-                        <a href="#projects" class="nav-list__link nav-list__link--active">Projects</a>
+                        <a href="#" class="nav-list__link nav-list__link--active">Project</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a href="#technologies" class="nav-list__link">About it</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <!-- Main content -->
-    <main class="section-projects">
-        <div class="container">
-            <h2 class="title-1">Creation of AI simple</h2>
-            <img src="projects/IA.png" alt="Project Image" class="project__picture">
-        </div>
-
-        <div class="container">
-            <h2 class="title-2">Technologies</h2>
-            <ul class="skills">
-                <li class="skill">
-                    <img src="img/icons/java.png" alt="" class="skills__img" />
-                    <h3 class="skill__title">Java </h3>
-                </li>
-                <li class="skill">
-                    <img src="img/icons/netbeans.png" alt="" class="skills__img" />
-                    <h3 class="skill__title"> NetBeans </h3>
-                </li>
-            </ul>
-            <div class="git-link"> <img src="img/icons/github-darkmode.svg" alt="" class="social-icon dark-icon">
+    <header id="home" class="header">
+        <div class="header__wrapper">
+            <h1 class="header__title">
+                <strong>Creation of AI simple </strong><br />
+            </h1>
+            <div class="header__text">
+                <p>Description of the project </p>
+            </div>
+            <div class="git-link">
+                <img src="img/icons/github-darkmode.svg" alt="" class="social-icon dark-icon">
                 <img src="img/icons/github-lightmode.svg" alt="" class="social-icon light-icon">
-                <a href="https://github.com/BogdanYarovenko/ProjectOdomo" class="link"><button class="btn"> I want to see this project</button></a>
+                <a href="https://github.com/BogdanYarovenko/ProjectOdomo" class="link">
+                    <button class="btn"> I want to see the project</button>
+                </a>
             </div>
         </div>
-<div class="container-wrapper">
-        <div class="container">
-            <h2 class="title-2">Cahier des Charges</h2>
-            <ul class="informations">
-                <li>Analyse des besoins des utilisateurs</li>
-                <li>Définition des fonctionnalités principales</li>
-                <li>Spécifications techniques</li>
-                <li>Évaluation des contraintes techniques et budgétaires</li>
-                <li>Planification des phases de développement</li>
-                <li>Élaboration des maquettes et prototypes</li>
-            </ul>
-        </div>
 
-        <div class="container">
-            <h2 class="title-2">Compétences</h2>
-            <ul class="informations">
-                <li>Gestion de projet</li>
-                <li>Développement front-end et back-end</li>
-                <li>Intégration continue et déploiement continu (CI/CD)</li>
-                <li>Test unitaire et fonctionnel</li>
-                <li>Collaboration en équipe</li>
-                <li>Résolution de problèmes complexes</li>
-                <li>Communication efficace</li>
-            </ul>
+    </header>
+    <!-- Main content -->
+    <main class="section-projects">
+        <img src="img/projects/IA.png" alt="Project Image" class="project__picture">
+        <div class="container-wrapper">
+
+            <div class="container">
+                <h2 class="title-2">Requirement Specification</h2>
+                <ul class="informations">
+                    <li>Analyse des besoins des utilisateurs</li>
+                    <li>Définition des fonctionnalités principales</li>
+                    <li>Spécifications techniques</li>
+                    <li>Évaluation des contraintes techniques et budgétaires</li>
+                    <li>Planification des phases de développement</li>
+                    <li>Élaboration des maquettes et prototypes</li>
+                </ul>
+            </div>
+            <div class="container">
+                <h2 id="technologies" class="title-2">Technologies</h2>
+                <ul class="skills">
+                    <li class="skill">
+                        <img src="img/icons/java.png" alt="" class="skills__img" />
+                        <h3 class="skill__title">Java </h3>
+                    </li>
+                    <li class="skill">
+                        <img src="img/icons/netbeans.png" alt="" class="skills__img" />
+                        <h3 class="skill__title"> NetBeans </h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <h2 class="title-2">Competences</h2>
+                <ul class="informations">
+                    <li>Gestion de projet</li>
+                    <li>Développement front-end et back-end</li>
+                    <li>Intégration continue et déploiement continu (CI/CD)</li>
+                    <li>Test unitaire et fonctionnel</li>
+                    <li>Collaboration en équipe</li>
+                    <li>Résolution de problèmes complexes</li>
+                    <li>Communication efficace</li>
+                </ul>
+            </div>
         </div>
-    </div>
     </main>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -108,7 +120,6 @@
             </div>
         </div>
     </footer>
-
     <script src="/js/main.js"></script>
 </body>
 
